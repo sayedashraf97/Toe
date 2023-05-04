@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<style>
+		#board {
+			display: flex;
+			flex-wrap: wrap;
+			width: 300px;
+			margin: 20px auto;
+			border: 1px solid black;
+			font-size: 50px;
+			text-align: center;
+		}
+
+		#board div {
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			cursor: pointer;
+		}
+
+		#info {
+			text-align: center;
+			margin-bottom: 20px;
+			font-size: 20px;
+		}
+
+		#restart {
+			display: block;
+			margin: 0 auto;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Tic Tac Toe</h1>
+	<div id="board">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div id="info"></div>
+	<button id="restart">Restart Game</button>
+
+	<script src="app.js"></script>
+</body>
+</html>
